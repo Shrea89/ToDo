@@ -17,6 +17,7 @@
 .env.production.local
 .env
 
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -26,5 +27,7 @@ yarn-error.log*
 .vscode/
 *.swp
 *.swo
-node_modules
-node_modules
+
+# cache
+.cache/
+*.cache
